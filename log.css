@@ -1,0 +1,58 @@
+.session {
+	padding-bottom: 4em;
+  background: darkkhaki;
+  text-align-last: center;
+   border-radius: 30px;
+   font-family: sans-serif;
+   text-decoration: underline;
+}
+
+
+/*.center {
+  margin-left: auto;
+  margin-right: auto;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-color: goldenrod;
+  border:1px solid $color-form-highlight
+}*/
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  color: blueviolet;
+}
+
+th{
+	background-color: #f2f2f2;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}

@@ -1,0 +1,95 @@
+* {
+    font-family: "Poppins";
+  }
+  
+  
+  
+    .navy {
+    padding-bottom: 4em;
+    background: darkcyan;
+    text-align-last: center;
+     border-radius: 30px;
+    }
+  
+    .titty {
+      font-size: 3em;
+       border-radius: 30px;
+    }
+  
+  .screen-1 {
+    background: #f1f7fe;
+    padding: -2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: -10em;
+  }
+  
+  /*.screen-1 .name {
+    background: goldenrod;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: black;
+    margin-top: -3em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }*/
+  
+  .screen-1 .pass{
+    background: goldenrod;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: black;
+    margin-top: -3em;
+    padding-top: -2em;
+  }
+  
+  .login {
+      padding: 1em;
+      background: hsl(233deg 36% 38%);
+      color: hsl(0 0 100);
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+  
+  button { cursor: pointer;
+      background-color: #e7e7e7; color: blueviolet;
+      border: none;
+      /*padding: 15px 32px;*/
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      /*margin: 4px 2px;*/
+      width: 100px;
+   }
+  
+  
+  
+  .do{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-right:300px;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+
+  
