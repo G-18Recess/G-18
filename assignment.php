@@ -1,4 +1,10 @@
-<?php include ('assingserver.php') ?>
+<?php 
+
+include('assingserver.php')
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,42 +25,102 @@
 <table>
    <tr>
        <td>
-           <input type="text"name="charac1" value="<?php echo $charac1; ?>" class="cul">
+           <input type="checkbox"name="hob[]" value="A">A &emsp;
        </td>
        <td>
-           <input type="text"name="charac2" value="<?php echo $charac2; ?>"class="cul">
+           <input type="checkbox"name="hob[]" value="B">B&emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="C">C &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="D">D &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="E">E &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="F">F &emsp;
        </td>
    </tr>
    <tr>
-       <td>
-           <input type="text"name="charac3" value="<?php echo $charac3; ?>"class="cul">
+   <td>
+           <input type="checkbox"name="hob[]" value="G">G &emsp;
        </td>
        <td>
-           <input type="text"name="charac4" value="<?php echo $charac4; ?>"class="cul">
+           <input type="checkbox"name="hob[]" value="H">H &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="I">I &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="J">J &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="K">K &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="L">L &emsp;
        </td>
    </tr>
    <tr>
-       <td>
-           <input type="text"name="charac5" value="<?php echo $charac5; ?>"class="cul">
+   <td>
+           <input type="checkbox"name="hob[]" value="M">M &emsp;
        </td>
        <td>
-           <input type="text"name="charac6" value="<?php echo $charac6; ?>"class="cul">
+           <input type="checkbox"name="hob[]" value="N">N &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="O">O &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="P">P &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="Q">Q &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="R">R&emsp;
        </td>
    </tr>
-   <tr>
-       <td>
-           <input type="text"name="charac7" value="<?php echo $charac7; ?>"class="cul">
+   <tr><td>
+           <input type="checkbox"name="hob[]" value="S" >S &emsp;
        </td>
        <td>
-           <input type="text"name="charac8" value="<?php echo $charac8; ?>"class="cul">
+           <input type="checkbox"name="hob[]" value="T">T &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="U">U &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="V">V &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="W">W &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="X">X &emsp;
        </td>
    </tr>
+<tr>
+<td>
+           <input type="checkbox"name="hob[]" value="Y">Y &emsp;
+       </td>
+       <td>
+           <input type="checkbox"name="hob[]" value="Z">Z &emsp;
+       </td>
+     
+</tr>
 </table>
     <br>
-    <label> Start:<input type="time"></label>
-    <label> End:<input type="time" ></label>
+    <label> Start:<input type="time" name="start"value="<?php echo $start; ?>"></label>&emsp;&emsp;&emsp;
+    <label> End:<input type="time" name="end" value="<?php echo $end; ?>" ></label><br><br>
+    <label> Startdate:<input type="date" name="Startdate"value="<?php echo $Startdate; ?>"></label>&emsp;&emsp;
+
+    <label> Enddate:<input type="date" name="Enddate" value="<?php echo $Enddate; ?>" ></label>
+
     <br><br>
-    <button type="submit"name="upload">Upload</button>
+    <button type="submit"name="upload" value="upload">Upload</button>
     <button type="reset">Clear</button>
     <br><br>
 

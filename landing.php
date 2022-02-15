@@ -15,7 +15,7 @@
                 <a class="navbar-brand" href="#page-top">CAS system</a>
                      <div>
                      <p><small> Are you a teacher?</small></p>
-                        <button><a  href="techlog.php">Login</a></button>
+                        <button class="butt"><a  href="techlog.php">Login</a></button>
             
                 </div>
             </div>
@@ -30,7 +30,7 @@
     
         <div class="navy">
     
-            <button><a  href="admin.php">Administrator?</a></button>
+            <br><br><button class="butt"><a  href="admin.php">Administrator?</a></button>
               
     </div>
 

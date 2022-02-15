@@ -37,11 +37,12 @@
              <input type="password" style="height: 30px;" placeholder="Enter Password" name="Password" required value="<?php echo $Password; ?>"><br><br>
            </div>
            <div class="login">
-             <button type="submit" style="height: 30px; background-color: cyan;" name="login">Login</button><br>
-         
-             <label>
+             <button type="submit" style="height: 30px" name="login">Login</button>
+         &emsp;<button type="submit"> <a href="landing.php">Home</a></button>
+             <label><br><br>
              <input type="checkbox" checked="checked" name="remember"> Remember me
              </label>
+             
              </div>
 
           </form> 

@@ -1,22 +1,6 @@
-<?php
-$user='root';
-$password='';
-$dbname='recess';
-$servername='localhost';
-$mysqli = new mysqli($servername, $user, $password, $dbname);
 
-if($mysqli->connect_error){
-    die('connect error(' .
-    $mysqli->connect_errno.')'.
-    $mysqli->connect_error);
-}
-$sql = "SELECT * FROM tree";
-$result = $mysqli->query($sql);
-
-$mysqli->close();
-
-?>
 <?php include ("regserver.php") ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,8 +10,6 @@ $mysqli->close();
     <title>registration of pupils</title>
     <link rel="stylesheet" href="./user.css" type="text/css">
     <link rel="stylesheet" href="dash.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body background="tr.jpg">
 
@@ -61,15 +43,20 @@ $mysqli->close();
 <button type="submit" name="register" value="register">Register</button>
 <button type="reset">Clear</button>
 <br><br>
-<table class="table">
+<table id="table" class="table">
             <tr>
             
                 <th>Firstname</th>&emsp;
                 <th>Lastname</th>
                 <th>Usercode</th>
                 <th>Telephone</th>
-                <th>Status </th>
-            <th> Toggle</th>
+                <th>Status
+                    <td>
+                        <select name="" id="">
+                            <option>activated</option>
+                            <option>deactivated</option>
+                        </select>
+                </th>
 </tr>
 <?php
 while($rows=$result->fetch_assoc()){
@@ -80,24 +67,6 @@ while($rows=$result->fetch_assoc()){
         <td><?php echo $rows['Lastname'];?></td>
         <td><?php echo $rows['Usercode'];?></td>
         <td><?php echo $rows['Telephone'];?></td>
-        <td>
-        
-        <?php
-        if($rows['status']=="1") 
-                            echo "Active";
-                        else 
-                            echo "Inactive";
-                    ?>                          
-                </td>
-
-        <td><?php            if($rows['status']=="1")
-                    echo 
-"<a href=deact.php?Id=".$rows['Id']." class='btn red'>Deactivate</a>";
-                    else 
-                        echo 
-"<a href=act.php?Id=".$rows['Id']." class='btn green'>Activate</a>";
-                    ?>
-        </td>
 </tr>
 <?php
 }

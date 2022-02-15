@@ -16,10 +16,10 @@
     </div>
         <h2>Welcome to the Character Assignment System</h2>
         <h3 style="color: blue;"><em>Select the action you want to perform</em></h3>
-        <button type="submit"><a href="reg.php">Register</a></button><br><br>
-        <button type="submit">View reports</button><br><br>
-        <button type="submit">Requests</button><br><br>
-        <button type="submit"> <a href="assignment.php">Give assignments</button><br><br><br>
+        <button type="submit" class="but"><a href="reg.php">Register</a></button><br><br>
+        <button type="submit" class="but"> <a href="reports.php">View reports</button><br><br>
+        <button type="submit" class="but"><a href="request.php">Requests</a></button><br><br>
+        <button type="submit"  class="but"> <a href="assignment.php">Give assignments</button><br><br><br>
         <button type="submit" class="sol"> <a href="techlog.php">Log Out</a></button>
         <br><br>
         

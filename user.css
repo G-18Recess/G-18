@@ -16,7 +16,12 @@ form{
     !important;
 }
 
-
+but{
+    height: 50px;
+  font-size: 24px;
+width: 200px;
+color: black;
+}
 /*body{
     background-: darkslategrey;
     background-repeat: no-repeat;
@@ -115,4 +120,23 @@ background-repeat: repeat;
         margin-left: 5px
         
         !important;
+    }
+    .btn{
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .green{
+        background-color: #199319;
+    }
+    .red{
+        background-color: red;
     }

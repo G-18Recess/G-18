@@ -43,7 +43,7 @@
 <br>
  <button type="submit" name="login" value='login' >login</button>
  
- 
+ &emsp;<button type="submit"> <a href="landing.php">Home</a></button>
 </form>
 
 </body>
